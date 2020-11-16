@@ -1,0 +1,28 @@
+body{
+    background-color: #ffc0cb;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(images/20mb-image.png);
+}
+a{
+    color: #ad6e79;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+@media (max-width: 991px) {
+
+    body{
+        background-color:blue
+    }
+}
+
+@media (max-width: 767px) {
+
+    body{
+        background-color:black
+        
+    }
+}
+
+
