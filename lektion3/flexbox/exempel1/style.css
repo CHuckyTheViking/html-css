@@ -1,0 +1,39 @@
+@import "../standard.css";
+
+.box{
+    /* flex-basis: 30%; */
+    text-align: center;
+    /* min-width: 100px; */
+    /* min-height: 100px; */
+}
+
+.subbox{
+    width: 50px;
+    height: 50px;
+}
+
+#parent{
+    height: 100vh;
+    display: flex;
+
+    justify-content: space-between;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+
+    align-items: center;
+}
+
+#child-1{
+    order: 2;
+    flex: 2;
+}
+#child-2{
+    order: 1;
+    flex: 1;
+}
+#child-3{
+    order: 3;
+    flex: 1;
+}
+
+
