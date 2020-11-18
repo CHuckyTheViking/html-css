@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
+/* 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;  
+*/
+
+
+/* mobile first - Standard Styling */
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media (min-width: 768px){.container{max-width: 720px;}}
+
+@media (min-width: 1200px){.container{max-width: 1120px;}}
+
+@media (min-width: 1400px){.container{max-width: 1320px;}}
+
+a{
+    color: #2BAAEC;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #25E6C8;
+}
+
+
+
+
+
+/* topmenu */
+
+#topmenu{
+    display: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+@media (min-width: 768px){#topmenu{
+    display: block;
+}}
+
+#topmenu .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#topmenu .hours{
+    flex: 2;
+}
+
+#topmenu .hours i{
+    margin-right: .5rem;
+    color: #2BAAEC;
+    font-size: 1.2rem;
+}
+
+.socialmedia{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+}
+
+.socialmedia li{
+    margin-left: 1rem;
+}
+
+
+
+
