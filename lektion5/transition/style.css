@@ -1,0 +1,32 @@
+
+.btn {
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 1.2rem 2.75rem;
+    font-size: 1.1rem;
+
+    /* transition-property: background-color;
+    transition-duration: .4s;
+    transition-timing-function: ease-in-out; */
+
+    /* transition: background-color .5s ease-in-out; */
+    transition: all .25s ease-in-out;
+
+
+}
+
+.btn-blue {
+    background-color: #416a92;
+    color: #fff;
+    box-shadow: 3px 4px 10px #48515a;
+}
+
+.btn-blue:hover {
+    background-color: #416a92;
+    box-shadow: 1px 3px 5px #48515a;
+}
+
+
+
+
+
