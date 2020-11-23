@@ -1,0 +1,28 @@
+
+.animate{
+    position: relative;
+    animation: loading 1.2s infinite;
+}
+
+#c1{
+    animation-delay: .1s;
+}
+#c2{
+    animation-delay: .2s;
+}
+#c3{
+    animation-delay: .4s;
+}
+#c4{
+    animation-delay: .6s;
+}
+
+
+
+
+
+
+
+
+
+
