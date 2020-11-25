@@ -10,13 +10,13 @@
 
 }
 
-@function set-dynamic-text-color($color, $procent: 50%) {
+@function set-dynamic-text-color($color) {
 
     @if (lightness($color) > 70) {
-        @return darken($color, $procent);
+        @return darken($color, 50%);
     }
     @else {
-        @return lighten($color, $procent);
+        @return lighten($color, 50%);
     }
 
 }
